@@ -1,7 +1,42 @@
 body {
+    font-family: adamina;
     margin: 0;
     padding: 0;
 }
 .container {
-    width: 75%;
+    width: 90%;
 }
+.main-menu {
+
+}
+.main-menu ul {
+    float: right;
+}
+.main-menu ul li {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    margin: 5px;
+    font-weight: bold;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    height: 250px;
+
+}
+.half-width img {
+    width: 100%;
+}
+.btn-danger {
+    text-decoration: none;
+
+    background-image: linear-gradient(lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.dr
