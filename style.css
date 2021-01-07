@@ -6,9 +6,6 @@ body {
 .container {
     width: 90%;
 }
-.main-menu {
-
-}
 .main-menu ul {
     float: right;
 }
@@ -24,8 +21,23 @@ body {
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-    height: 250px;
+    height: 700px;
+    overflow: hidden;
 
+}
+.half-width h2 {
+    color: #D6A2E8;
+    text-transform: uppercase;
+    
+}
+.half-width h1 {
+    color: #3B3B98;
+    text-transform: uppercase;
+
+}
+.half-width p {
+    color: #636e72;
+    
 }
 .half-width img {
     width: 100%;
@@ -39,4 +51,3 @@ body {
     color: white;
     font-weight: bold;
 }
-.dr
