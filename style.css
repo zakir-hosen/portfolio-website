@@ -1,3 +1,8 @@
+
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family: adamina;
     margin: 0;
@@ -15,18 +20,19 @@ body {
     float: left;
     margin: 5px;
     font-weight: bold;
+    overflow: hidden;
 }
 .half-width {
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-    height: 700px;
+    height: 500px;
     overflow: hidden;
 
 }
 .half-width h2 {
-    color: #D6A2E8;
+    
     text-transform: uppercase;
     
 }
@@ -45,9 +51,22 @@ body {
 .btn-danger {
     text-decoration: none;
 
-    background-image: linear-gradient(lightSalmon, tomato);
+    background-image: linear-gradient(#9AECDB, #55E6C1);
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
     font-weight: bold;
 }
+.row {
+    background-color: #bdc3c7;
+}
+.col-3-1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    overflow: hidden;
+    color: #34495e;
+    
+}
+
+
